@@ -1,4 +1,4 @@
-package com.itformacion.fixer_xml;
+package com.itformacion.fixerpath;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

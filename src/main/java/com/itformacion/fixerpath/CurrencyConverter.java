@@ -1,4 +1,4 @@
-package com.itformacion.fixer_xml;
+package com.itformacion.fixerpath;
 
 import com.jayway.jsonpath.JsonPath;
 import org.springframework.web.client.RestTemplate;
