@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class FixerIO {
     public static void main(String[] args) {
-        // Conversion against EUR
+    	        // Conversion against EUR
         ApplicationContext context = new ClassPathXmlApplicationContext("file:src/main/java/BeanGBP.xml");
         CurrencyConverter converter = context.getBean(CurrencyConverter.class);
         System.out.println(String.format(
